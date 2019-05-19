@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_p29aMG9FEem0AquPVzQL4A" name="Reminder">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qNNXAG9FEem0AquPVzQL4A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_qBkHsG9FEem0AquPVzQL4A" name="Interaction1"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_qC6LgG9FEem0AquPVzQL4A" name="Interaction2"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_qDYFkG9FEem0AquPVzQL4A" name="Activity3"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_qELW0G9FEem0AquPVzQL4A" name="Activity4"/>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_qFBEUG9FEem0AquPVzQL4A" name="StateMachine5">
+    <region xmi:type="uml:Region" xmi:id="_qFeXUG9FEem0AquPVzQL4A" name="Region1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6kxLwG97EemPgeICNENQ2w" name="utilisateur"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-MPBsG97EemPgeICNENQ2w" name="inscription"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EJN9gG98EemPgeICNENQ2w" name="Login"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_THZ0EG98EemPgeICNENQ2w" name="Parametre"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vq1aIG98EemPgeICNENQ2w" name="Definition des evenements"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cID8QG98EemPgeICNENQ2w" name="Réaction aux alertes"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uyzkIG98EemPgeICNENQ2w" memberEnd="_uzaoIG98EemPgeICNENQ2w _uzjLAG98EemPgeICNENQ2w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uzYy8G98EemPgeICNENQ2w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uzZaAG98EemPgeICNENQ2w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uzaoIG98EemPgeICNENQ2w" name="inscription" type="_-MPBsG97EemPgeICNENQ2w" association="_uyzkIG98EemPgeICNENQ2w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uzjLAG98EemPgeICNENQ2w" name="utilisateur" type="_6kxLwG97EemPgeICNENQ2w" association="_uyzkIG98EemPgeICNENQ2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A7tDMG99EemPgeICNENQ2w" memberEnd="_A7wGgG99EemPgeICNENQ2w _A7wGgW99EemPgeICNENQ2w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A7vfcG99EemPgeICNENQ2w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A7vfcW99EemPgeICNENQ2w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A7wGgG99EemPgeICNENQ2w" name="login" type="_EJN9gG98EemPgeICNENQ2w" association="_A7tDMG99EemPgeICNENQ2w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A7wGgW99EemPgeICNENQ2w" name="utilisateur" type="_6kxLwG97EemPgeICNENQ2w" association="_A7tDMG99EemPgeICNENQ2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LriC8G99EemPgeICNENQ2w" memberEnd="_LrkfMG99EemPgeICNENQ2w _LrkfMW99EemPgeICNENQ2w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lrj4IG99EemPgeICNENQ2w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lrj4IW99EemPgeICNENQ2w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LrkfMG99EemPgeICNENQ2w" name="utilisateur" type="_6kxLwG97EemPgeICNENQ2w" association="_LriC8G99EemPgeICNENQ2w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LrkfMW99EemPgeICNENQ2w" name="parametre" type="_THZ0EG98EemPgeICNENQ2w" association="_LriC8G99EemPgeICNENQ2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OwoLoG99EemPgeICNENQ2w" memberEnd="_OwpZwm99EemPgeICNENQ2w _OwpZw299EemPgeICNENQ2w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OwpZwG99EemPgeICNENQ2w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OwpZwW99EemPgeICNENQ2w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OwpZwm99EemPgeICNENQ2w" name="utilisateur" type="_6kxLwG97EemPgeICNENQ2w" association="_OwoLoG99EemPgeICNENQ2w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OwpZw299EemPgeICNENQ2w" name="definition des evenements" type="_Vq1aIG98EemPgeICNENQ2w" association="_OwoLoG99EemPgeICNENQ2w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TcbMYG99EemPgeICNENQ2w" memberEnd="_Tcbzcm99EemPgeICNENQ2w _Tcbzc299EemPgeICNENQ2w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TcbzcG99EemPgeICNENQ2w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TcbzcW99EemPgeICNENQ2w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Tcbzcm99EemPgeICNENQ2w" name="utilisateur" type="_6kxLwG97EemPgeICNENQ2w" association="_TcbMYG99EemPgeICNENQ2w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Tcbzc299EemPgeICNENQ2w" name="réaction aux alertes" type="_cID8QG98EemPgeICNENQ2w" association="_TcbMYG99EemPgeICNENQ2w"/>
+  </packagedElement>
+</uml:Model>

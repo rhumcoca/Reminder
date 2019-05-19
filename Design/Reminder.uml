@@ -51,4 +51,23 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_Tcbzcm99EemPgeICNENQ2w" name="utilisateur" type="_6kxLwG97EemPgeICNENQ2w" association="_TcbMYG99EemPgeICNENQ2w"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Tcbzc299EemPgeICNENQ2w" name="réaction aux alertes" type="_cID8QG98EemPgeICNENQ2w" association="_TcbMYG99EemPgeICNENQ2w"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7RFxoHpwEemADfgClWqNgw" name="Event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-uu9MHpwEemADfgClWqNgw" name="Id"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_L3XAUHpxEemADfgClWqNgw" name="Name" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NyQmwHpxEemADfgClWqNgw" name="Description" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RGFvAHpxEemADfgClWqNgw" name="Category" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VhOdkHpxEemADfgClWqNgw" name="Frequency" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZZuZIHpxEemADfgClWqNgw" name="Status" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Nl_P4HpyEemADfgClWqNgw" name="Date"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_mSYGkHpxEemADfgClWqNgw" name="CreateEvent"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wQwbQHpxEemADfgClWqNgw" name="UpdateEvent"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yXp2UHpxEemADfgClWqNgw" name="GetEvent"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_znREEHpxEemADfgClWqNgw" name="DeleteEvent"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GYMB4HpxEemADfgClWqNgw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GYPFMHpxEemADfgClWqNgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>

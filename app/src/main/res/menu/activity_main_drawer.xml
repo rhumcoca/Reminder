@@ -34,5 +34,12 @@
                 android:title="@string/menu_send" />
         </menu>
     </item>
-
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nev_quit"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Quit" />
+        </menu>
+    </item>
 </menu>

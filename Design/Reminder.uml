@@ -5,17 +5,49 @@
   </packageImport>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_qBkHsG9FEem0AquPVzQL4A" name="Interaction1"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_qC6LgG9FEem0AquPVzQL4A" name="Interaction2"/>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_qDYFkG9FEem0AquPVzQL4A" name="Activity3"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_qDYFkG9FEem0AquPVzQL4A" node="_9abZEH1XEemvnfuHINW89A _vjMjgH1XEemvnfuHINW89A _FPepwH1YEemvnfuHINW89A _Qt-GUH1YEemvnfuHINW89A _efIJEH1YEemvnfuHINW89A _jZnGEH1YEemvnfuHINW89A _nF7m0H1YEemvnfuHINW89A _y8uOoH1YEemvnfuHINW89A _7F-NsH1YEemvnfuHINW89A _DpMzAH1ZEemvnfuHINW89A _PyEpUH1ZEemvnfuHINW89A _JfL5gH1aEemvnfuHINW89A">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_B_JhcH1YEemvnfuHINW89A" target="_9abZEH1XEemvnfuHINW89A" source="_vjMjgH1XEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JCnkMH1YEemvnfuHINW89A" target="_FPepwH1YEemvnfuHINW89A" source="_9abZEH1XEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KG8H8H1YEemvnfuHINW89A" target="_9abZEH1XEemvnfuHINW89A" source="_FPepwH1YEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_V5KY0H1YEemvnfuHINW89A" target="_Qt-GUH1YEemvnfuHINW89A" source="_9abZEH1XEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YK9cUH1YEemvnfuHINW89A" target="_9abZEH1XEemvnfuHINW89A" source="_Qt-GUH1YEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hplS4H1YEemvnfuHINW89A" target="_efIJEH1YEemvnfuHINW89A" source="_9abZEH1XEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vbkcEH1YEemvnfuHINW89A" target="_jZnGEH1YEemvnfuHINW89A" source="_efIJEH1YEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xHmgEH1YEemvnfuHINW89A" target="_nF7m0H1YEemvnfuHINW89A" source="_jZnGEH1YEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3WedIH1YEemvnfuHINW89A" target="_y8uOoH1YEemvnfuHINW89A" source="_efIJEH1YEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4ZTzIH1YEemvnfuHINW89A" target="_9abZEH1XEemvnfuHINW89A" source="_y8uOoH1YEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__eqsQH1YEemvnfuHINW89A" target="_7F-NsH1YEemvnfuHINW89A" source="_9abZEH1XEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BqWgsH1ZEemvnfuHINW89A" target="_9abZEH1XEemvnfuHINW89A" source="_7F-NsH1YEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TkE7UH1ZEemvnfuHINW89A" target="_DpMzAH1ZEemvnfuHINW89A" source="_7F-NsH1YEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VglrUH1ZEemvnfuHINW89A" target="_7F-NsH1YEemvnfuHINW89A" source="_DpMzAH1ZEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Wu874H1ZEemvnfuHINW89A" target="_PyEpUH1ZEemvnfuHINW89A" source="_DpMzAH1ZEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YIhW4H1ZEemvnfuHINW89A" target="_DpMzAH1ZEemvnfuHINW89A" source="_PyEpUH1ZEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_spr4YH1aEemvnfuHINW89A" target="_JfL5gH1aEemvnfuHINW89A" source="_9abZEH1XEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_t4QkUH1aEemvnfuHINW89A" target="_9abZEH1XEemvnfuHINW89A" source="_JfL5gH1aEemvnfuHINW89A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4jFIQH1aEemvnfuHINW89A" target="_9abZEH1XEemvnfuHINW89A" source="_efIJEH1YEemvnfuHINW89A"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_vjMjgH1XEemvnfuHINW89A" outgoing="_B_JhcH1YEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9abZEH1XEemvnfuHINW89A" name="Home" incoming="_B_JhcH1YEemvnfuHINW89A _KG8H8H1YEemvnfuHINW89A _YK9cUH1YEemvnfuHINW89A _4ZTzIH1YEemvnfuHINW89A _BqWgsH1ZEemvnfuHINW89A _t4QkUH1aEemvnfuHINW89A _4jFIQH1aEemvnfuHINW89A" outgoing="_JCnkMH1YEemvnfuHINW89A _V5KY0H1YEemvnfuHINW89A _hplS4H1YEemvnfuHINW89A __eqsQH1YEemvnfuHINW89A _spr4YH1aEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FPepwH1YEemvnfuHINW89A" name="Filtre" incoming="_JCnkMH1YEemvnfuHINW89A" outgoing="_KG8H8H1YEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Qt-GUH1YEemvnfuHINW89A" name="Recherche" incoming="_V5KY0H1YEemvnfuHINW89A" outgoing="_YK9cUH1YEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_efIJEH1YEemvnfuHINW89A" name="Slider menu" incoming="_hplS4H1YEemvnfuHINW89A" outgoing="_vbkcEH1YEemvnfuHINW89A _3WedIH1YEemvnfuHINW89A _4jFIQH1aEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_jZnGEH1YEemvnfuHINW89A" name="Exit" incoming="_vbkcEH1YEemvnfuHINW89A" outgoing="_xHmgEH1YEemvnfuHINW89A"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_nF7m0H1YEemvnfuHINW89A" incoming="_xHmgEH1YEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_y8uOoH1YEemvnfuHINW89A" name="Profil" incoming="_3WedIH1YEemvnfuHINW89A" outgoing="_4ZTzIH1YEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7F-NsH1YEemvnfuHINW89A" name="Paramétrage" incoming="__eqsQH1YEemvnfuHINW89A _VglrUH1ZEemvnfuHINW89A" outgoing="_BqWgsH1ZEemvnfuHINW89A _TkE7UH1ZEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_DpMzAH1ZEemvnfuHINW89A" name="Liste des types d'événements" incoming="_TkE7UH1ZEemvnfuHINW89A _YIhW4H1ZEemvnfuHINW89A" outgoing="_VglrUH1ZEemvnfuHINW89A _Wu874H1ZEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PyEpUH1ZEemvnfuHINW89A" name="Type d'événement" incoming="_Wu874H1ZEemvnfuHINW89A" outgoing="_YIhW4H1ZEemvnfuHINW89A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JfL5gH1aEemvnfuHINW89A" name="Evénement" incoming="_spr4YH1aEemvnfuHINW89A" outgoing="_t4QkUH1aEemvnfuHINW89A"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Activity" xmi:id="_qELW0G9FEem0AquPVzQL4A" name="Activity4"/>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_qFBEUG9FEem0AquPVzQL4A" name="StateMachine5">
     <region xmi:type="uml:Region" xmi:id="_qFeXUG9FEem0AquPVzQL4A" name="Region1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_6kxLwG97EemPgeICNENQ2w" name="utilisateur"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_-MPBsG97EemPgeICNENQ2w" name="inscription"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_EJN9gG98EemPgeICNENQ2w" name="Login"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_THZ0EG98EemPgeICNENQ2w" name="Parametre"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vq1aIG98EemPgeICNENQ2w" name="Definition des evenements"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_cID8QG98EemPgeICNENQ2w" name="Réaction aux alertes"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-MPBsG97EemPgeICNENQ2w" name="S'incrit dans l'app"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EJN9gG98EemPgeICNENQ2w" name="Accède a l'app"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_THZ0EG98EemPgeICNENQ2w" name="Parametre l'app"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vq1aIG98EemPgeICNENQ2w" name="Definit des evenements"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cID8QG98EemPgeICNENQ2w" name="Réagit aux alertes"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_uyzkIG98EemPgeICNENQ2w" memberEnd="_uzaoIG98EemPgeICNENQ2w _uzjLAG98EemPgeICNENQ2w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uzYy8G98EemPgeICNENQ2w" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uzZaAG98EemPgeICNENQ2w" key="nature" value="UML_Nature"/>
@@ -63,6 +95,14 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_wQwbQHpxEemADfgClWqNgw" name="UpdateEvent"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_yXp2UHpxEemADfgClWqNgw" name="GetEvent"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_znREEHpxEemADfgClWqNgw" name="DeleteEvent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_8ggj8H1WEemvnfuHINW89A" name="Filtre les événements"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XbinAH1XEemvnfuHINW89A" memberEnd="_XblqUH1XEemvnfuHINW89A _XblqUX1XEemvnfuHINW89A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XbkcMH1XEemvnfuHINW89A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XbkcMX1XEemvnfuHINW89A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XblqUH1XEemvnfuHINW89A" name="filtre les événements" type="_8ggj8H1WEemvnfuHINW89A" association="_XbinAH1XEemvnfuHINW89A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XblqUX1XEemvnfuHINW89A" name="utilisateur" type="_6kxLwG97EemPgeICNENQ2w" association="_XbinAH1XEemvnfuHINW89A"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GYMB4HpxEemADfgClWqNgw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GYPFMHpxEemADfgClWqNgw" source="http://www.eclipse.org/uml2/2.0.0/UML">

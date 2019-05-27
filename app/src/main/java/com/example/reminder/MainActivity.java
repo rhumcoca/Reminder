@@ -97,6 +97,8 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
+        } else if (id == R.id.nav_quit) {
+            this.finish();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

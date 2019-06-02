@@ -16,4 +16,20 @@
     <string name="title_activity_event_list">EventList</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="event">Event</string>
+    <string name="event_date">Event date</string>
+    <string name="event_type">Type</string>
+    <string name="event_note">Note</string>
+    <string name="event_repeat">Repeat</string>
+    <string name="validate">Validate</string>
+    <string name="delete">Delete</string>
+    <string name="enven_alarm">Alarm</string>
+
+    <string-array name="alarms_array">
+        <item>One month before</item>
+        <item>One week before</item>
+        <item>One day before</item>
+        <item>One hour before</item>
+    </string-array>
+
 </resources>
